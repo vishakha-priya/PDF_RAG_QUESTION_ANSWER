@@ -153,7 +153,7 @@ class RAGRetriever:
 rag_retriever=RAGRetriever(embedding_manager,vector_store)
 
 llm=ChatGroq(
-    groq_api_key=API_kEY_GROQ,
+    groq_api_key=api_key,
     model="openai/gpt-oss-120b",
     temperature=0.1,
     max_tokens=1024 
